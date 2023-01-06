@@ -1,0 +1,97 @@
+ @media (min-width:1200px) {
+.container {
+ max-width: 1159px;
+}
+
+#searchTable .nemberName {
+width: 197px;
+}
+#searchTable .emailId {
+width: 183px;
+}
+#searchTable .dateSince {
+width: 173px;
+}
+#searchTable .dateExpire {
+width: 151px;
+}
+#searchTable .monthly {
+width: 163px;
+}
+#searchTable .subscription {
+width: 116px;
+}
+#searchTable .spent {
+width: 100px;
+}
+#searchTable .tabinfo {
+width: 44px;
+}
+}
+@media (min-width:768px){
+.smdw{ display: none;  }
+
+}
+
+
+
+ @media (min-width: 320px) and (max-width: 570px) {
+
+#searchPagination .page-link, .paginate_controls input[type=button], .paginate_controls span.dotsperator {
+    padding: 4px 8px;
+}
+input.paginate_control_next {
+    width: 10px;
+}
+ }
+
+
+
+ @media (min-width: 320px) and (max-width: 767px) {
+ .navbar-expand-lg>.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.adminName{ display: none;  }
+.dropdown-toggle::after {
+ display: none;
+}
+#profileBtb .profileIcon {
+	margin-right: 0px;
+	background-size: 30px;
+	height: 30px;
+	width: 30px;
+}
+.smup{ display: none;  }
+.login-img {
+    max-width: 168px;
+    margin: 0 auto 53px auto;
+}
+h2.formTitle {
+    margin-bottom: 39px;
+}
+.form-control {
+    height: 49px;
+}
+.log-InUpForm .form-group {
+    margin-bottom: 7px;
+}
+.form-btn-group {
+    margin-top: 50px;
+}
+form.elm-searchboxForm {
+    max-width: 100%;
+}
+.CustomTabelForm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+}
+#searchPagination {
+    padding-bottom: 22px;
+}
+#acdShTable {
+    margin-bottom: 10px;
+}
+ 	}

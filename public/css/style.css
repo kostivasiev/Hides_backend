@@ -1,0 +1,566 @@
+@font-face {
+ font-family: 'nimbus_sans_d_otbold';
+ src: url('../fonts/nimbussansdot-bold-webfont.woff2') format('woff2'),  url('../fonts/nimbussansdot-bold-webfont.woff') format('woff');
+ font-weight: normal;
+ font-style: normal;
+}
+ @font-face {
+ font-family: 'nimbus_sans_d_otregular';
+ src: url('../fonts/nimbussansdot-regu-webfont.woff2') format('woff2'),  url('../fonts/nimbussansdot-regu-webfont.woff') format('woff');
+ font-weight: normal;
+ font-style: normal;
+}
+body {
+	background-color: rgba(29 29 29);
+	font-family: 'nimbus_sans_d_otregular';
+}
+:focus {
+    outline: none !important;
+}
+.btn.focus, .btn:focus, .custom-select:focus, .page-link:focus {
+    outline: 0;
+    box-shadow: none;
+}
+ 
+.form-control::-webkit-input-placeholder {
+ color: rgba(120, 123, 126);
+opacity: 1;
+}
+.form-control::-moz-placeholder {
+ color: rgba(120, 123, 126);
+opacity: 1;
+}
+.form-control:-ms-input-placeholder {
+ color: rgba(120, 123, 126);
+opacity: 1;
+}
+.form-control:-moz-placeholder {
+ color: rgba(120, 123, 126);
+opacity: 1;
+}
+.bg-dark {
+	background-color: #111!important;
+}
+.navbar-brand {
+	font-size: 24px;
+	font-family: 'nimbus_sans_d_otbold';
+padding-bottom: .28rem;
+padding-top: .5rem;
+}
+.bgImg {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+ .dropdown-toggle::after {
+ background-image: url(../img/downArrow.png);
+ height: 6px;
+ width: 10px;
+ border: none;
+ top: 2px;
+ position: relative;
+ margin-left: 13px;
+}
+#profileBtb {
+	padding: 10px 6px;
+	background-color: transparent;
+	border: none;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	font-family: 'nimbus_sans_d_otbold';
+}
+#profileBtb .profileIcon {
+	margin-right: 10px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(../img/profileIcon.png);
+	background-size: 22px;
+	height: 22px;
+	width: 22px;
+}
+ .btn-secondary:not(:disabled):not(.disabled):active:focus, .show>.btn-secondary.dropdown-toggle:focus, .btn-secondary.focus, .btn-secondary:focus {
+ box-shadow: none;
+}
+form.elm-searchboxForm .form-control {
+	background-color: rgba(32 33 34);
+	border: none;
+	border-radius: 50px;
+	height: 40px;
+	text-indent: 39px;
+	font-size: 14px;
+}
+button.searchButton {
+	background-image: url(../img/search.png);
+	width: 14px;
+	height: 100%;
+	position: absolute;
+	left: 14px;
+	background-repeat: no-repeat;
+	border: none;
+	background-position: center;
+	background-color: transparent;
+	top: 0px;
+	padding: 0;
+}
+form.elm-searchboxForm {
+	position: relative;
+	max-width: 280px;
+}
+#searchPagination ul.pagination li.page-item.nextPage img, #searchPagination ul.pagination li.page-item.prevPage img {
+	position: relative;
+	top: -3px;
+}
+#searchPagination {
+	padding-top: 24px;
+	padding-bottom: 16px;
+}
+#searchPagination ul.pagination {
+	margin: 4px 0px 0px 0px;
+	justify-content: flex-end;
+}
+#searchPagination .page-item:last-child .page-link {
+	padding-right: 15px;
+}
+#searchPagination .page-link, .paginate_controls input[type=button], .paginate_controls span.dotsperator   {
+	padding: 8px 11.5px;
+	margin-left: 0;
+	color: #fff;
+	font-size: 13px;
+	font-family: 'nimbus_sans_d_otbold';
+	background-color: transparent;
+	border: none;
+	border-radius: 6px;
+}
+#searchPagination .page-item.active .page-link,  .paginate_controls input[type=button].active  {
+	background-color: #000;
+}
+#searchPagination .page-item.disabled .page-link, .paginate_controls input[type=button][disabled]:hover {
+	background-color: transparent;
+}
+#searchPagination .page-link:hover, .paginate_controls input[type=button]:hover {
+	color: #fff;
+	background-color: #111;
+}
+#searchPagination ul.pagination #buttons input[type="button"]:last-child {
+    display: none;
+}
+.dotsperator{}
+input.paginate_control_prev {
+    background-color: transparent;
+    border: none;
+    background-image: url(../img/prevArrow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-indent: -999px;
+    width: 31px;
+}
+input.paginate_control_next{
+    background-color: transparent;
+    border: none;
+    background-image: url(../img/nextArrow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-indent: -999px;
+    width: 31px;
+}
+
+.tabSubLinks {
+	background-image: url(../img/subLinks.png);
+	width: 4px;
+	height: 17px;
+	display: block;
+	filter: grayscale(1);
+}
+#tabSubLinks[aria-expanded="true"] {
+	filter: inherit;
+}
+.tableSearch .sorting {
+	position: relative;
+}
+.tableSearch .sorting:after {
+	content: "";
+	display: inline-block;
+	width: 8px;
+	height: 12px;
+	transform: translateY(2px);
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	margin-left: 14px;
+}
+.tableSearch .sorting:after {
+	background-image: url(../img/arrowSorting.png);
+}
+.tableSearch .sorting.sorting_asc:after {
+	background-image: url(../img/arrowSorting_asc.png);
+}
+.tableSearch .sorting.sorting_desc:after {
+	background-image: url(../img/arrowsorting_desc.png);
+}
+.tableSearch .thead-dark th:last-child::after {
+display: none;
+}
+.table .thead-dark th, .table .rowthead-dark th {
+	color: #fff;
+	background-color: #111;
+	height: 61px;
+	border:none;
+ padding: .75rem 10px;
+	vertical-align: middle;
+	white-space: nowrap;
+	font-family: 'nimbus_sans_d_otbold';
+	cursor: pointer;
+}
+.tableSearch .table td {
+ padding: .75rem 10px;
+	height: 80px;
+	border-top: 2px solid rgba(29 29 29);
+	vertical-align: middle;
+	font-size: 14px;
+	background-color: rgba(32 33 34);
+	white-space: nowrap;
+}
+.tableSearch .table td.nemberName, .tableSearch .table td.dateSince, .tableSearch .table td.dateExpire {
+	font-size: 16px;
+}
+.tableSearch .thead-dark th:first-child, .tableSearch td:first-child, .table .rowthead-dark th:first-child {
+	padding-left: 30px;
+}
+.tableSearch .table-dark {
+	background-color: transparent;
+	margin-bottom: 12px;
+}
+.dataTables_info {
+	color: #fff;
+	font-size: 14px;
+}
+.tableSearch .thead-dark th:first-child, .table .rowthead-dark th:first-child {
+	border-radius: 10px 0 0 0;
+}
+.tableSearch .thead-dark th:last-child, .table .rowthead-dark th:last-child {
+	border-radius: 0px 10px 0 0;
+}
+.tableSearch tbody tr:last-child td:first-child {
+	border-radius: 0px 0px 0 10px;
+}
+.tableSearch tbody tr:last-child td:last-child {
+	border-radius: 0px 0px 10px 0;
+}
+.iconCrown {
+	background-size: 18px 16px;
+	display: inline-block;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	top: 2px;
+	margin-right: 13px;
+	width: 18px;
+	height: 16px;
+}
+.monthly .iconCrown {
+	background-image: url(../img/monthlyCrown.png);
+}
+.inactive .iconCrown {
+	background-image: url(../img/inactiveCrown.png);
+}
+.yearly .iconCrown {
+	background-image: url(../img/yearlyCrown.png);
+}
+.dropdown-menu[aria-labelledby="tabSubLinks"] {
+	background: rgba(14 13 12);
+	border: none;
+	border-radius: 10px;
+	top: auto !important;
+	bottom: 17px !important;
+	margin-bottom: 8px;
+	padding: 5px 0;
+}
+.dropdown-menu[aria-labelledby="tabSubLinks"] a {
+	color: rgba( 233 233 233);
+	padding: 3px 20px;
+}
+.dropdown-menu[aria-labelledby="tabSubLinks"] .dropdown-item:focus, .dropdown-menu[aria-labelledby="tabSubLinks"] .dropdown-item:hover {
+	color: rgba( 233 233 233);
+	background-color: transparent;
+}
+.adminModal .modal-content {
+	background-color: rgba(14, 13, 12);
+	color: rgba(233, 233, 233);
+	font-size: 14px;
+	border:   none;
+}
+.adminModal .modal-dialog {
+	max-width: 284px;
+}
+.modal-dialog {
+	max-width: 500px;
+	margin: 0 auto;
+	top: 50%;
+	transform: translateY(-50%) !important;
+}
+#subscriptionModal   .modal-title {
+	text-align: center;
+	margin-bottom: 23px;
+}
+#subscriptionModal  .modal-body {
+	padding: 25px 0 0px 0;
+}
+
+/*--------------*/
+#acdShTable .card-header {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    background-color:transparent;
+}
+#acdShTable .card {
+    border: none;
+    background-color: #111;
+    margin-bottom: 2px; color: #fff;
+}
+#acdShTable .card-header .btn-link {
+    padding: 13px 20px;
+    width: 100%;
+    text-align: left;
+    color: #fff;
+    background-color: rgba(32, 33, 34);
+    border: none;
+    background-image: url(../img/downArrowGray.png);
+    background-position: center right 28px;
+    background-repeat: no-repeat;
+}
+#acdShTable .card-header .btn-link[aria-expanded="true"] {
+     background-color: #111; background-image:none;
+}
+
+#acdShTable .card-header .btn-link:hover {
+    text-decoration: none; 
+}
+.tableSearchMobil table.table.table-dark {
+    background-color: transparent;
+}
+.tableSearchMobil table.table.table-dark th, .tableSearchMobil table.table.table-dark td {
+    border-color: rgba(32,33,34);
+    padding:10px 0 9px 0;  
+}
+.tableSearchMobil table.table.table-dark th{ width: 145px; font-family: 'nimbus_sans_d_otbold'; font-weight: normal; }
+#acdShTable .card-body {
+    padding: 9px 20px;
+}
+.tableSearchMobil {
+    font-size: 14px;
+}
+.tableSearchMobil table.table.table-dark tr:first-child th, .tableSearchMobil table.table.table-dark tr:first-child td{ border-top: none;  }
+
+.card {
+    border-radius: 10px;
+}
+.tableSearchMobil .accordion>.card:not(:last-of-type) {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.tableSearchMobil .accordion>.card:not(:first-of-type) {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+select#sortbyCustom {
+    border-radius: 50px;
+    border: 1px solid rgba(32, 33, 34);
+    background-color: rgba(38, 39, 40);
+    height: 43px;
+    width: 131px;
+    color: #fff; padding: 0 14px;
+}
+.custom-select {
+    background-image: url(../img/arrowSorting.png);
+    background-position: right 20px center;
+}
+.deleteUserlink{ 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(../img/delateicon.png);
+	width: 17px; height: 17px;
+  }
+.subrlink{ 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(../img/nounEdit.png);
+	width: 17px; height: 17px; margin-right: 10px;
+  }
+
+
+/*--------------*/
+input[type=radio].css-radio {
+	position:absolute;
+	z-index:-1000;
+	left:-1000px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	height:1px;
+	width:1px;
+	margin:-1px;
+	padding:0;
+	border:0;
+}
+input[type=radio].css-radio + label.radio-label {
+	padding-left:30px;
+	height:14px;
+	display:inline-block;
+	line-height:14px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	vertical-align:middle;
+	margin-bottom:  0px;
+	cursor:pointer;
+}
+input[type=radio].css-radio:checked + label.radio-label {
+	background-position: 0 -14px;
+}
+label.radio-label {
+	background-image:url(../img/radio-label.png);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.documentPrice {
+	text-align: right;
+}
+.subrRow {
+	padding: 14px 31px 14px 19px;
+	border-top: 1px solid #232324;
+}
+.adminModal .modal-footer {
+	padding: 0;
+	border-top: 1px solid #232324;
+	display: flex;
+}
+.adminModal .modal-footer .btn {
+	margin: 0px;
+	width: 50%;
+	border-radius: 0;
+	background: no-repeat;
+	border: none;
+	padding: 10px;
+	font-size: 16px;
+}
+.adminModal .modal-footer .btn.btn-primary {
+	color: rgb(6, 132, 255);
+	border-left: 1px solid #232324;
+	font-family: 'nimbus_sans_d_otbold';
+}
+.adminModal .modal-footer .btn.btn-danger {
+	color: rgba(255, 92, 76);
+	border-left: 1px solid #232324;
+	font-family: 'nimbus_sans_d_otbold';
+}
+#deleteUserModal  .modal-body {
+	padding: 38px 20px;
+}
+#deleteUserModal .modal-title {
+	text-align: center;
+	line-height: 20px;
+}
+#loginSection {
+	height: 100vh;
+	height: 100vh;
+	align-items: center;
+	display: flex;
+}
+.form-control {
+	height:47.5px;
+	border-width:0 0 1px 0;
+	border-color: rgba(11, 11, 11);
+	background-color: transparent;
+	border-radius: 0;
+	padding: 0px;
+	color: rgba(233, 233, 233);
+}
+.form-control:focus {
+	border-color: rgba(233, 233, 233);
+	background-color: transparent;
+	box-shadow: none;
+	color: rgba(233, 233, 233);
+}
+.errors input.form-control {
+    border-color: rgba(255, 91, 70);
+}
+
+
+.emailHelp {
+	/*visibility: hidden;*/
+	font-size: 14px;
+	color: rgba(255, 91, 70);
+	margin-top: 11px;
+	display: block;
+}
+input:-internal-autofill-selected { background-color: transparent !important; background:none !important;   }
+/*
+ .form-control:invalid {
+ border-color: rgba(255, 92, 76);
+}
+.form-control:invalid + #emailHelp {
+visibility: visible;
+}
+*/
+ #emailHelp.email-error - .form-control{  border-color: rgba(255, 92, 76); }
+ #emailHelp.email-error {
+visibility: visible;
+}
+
+ 
+.log-InUpForm {
+    max-width: 295px;
+    margin: auto;
+    text-align: left;
+}
+.btn {
+	border:0;
+	border-radius: 50px;
+}
+.log-InUpForm .btn {
+	height: 48px;
+}
+.btn-secondary {
+	background-color: rgba( 32 33 34);
+	color: rgba(120, 123, 126);
+}
+.btn-secondary:hover {
+	color: rgba(6, 132, 255);
+	background-color:rgba(14, 13, 12);
+}
+.btn-secondary.disabled, .btn-secondary:disabled {
+	background-color: rgba( 32 33 34);
+	color: rgba(120, 123, 126);
+	cursor: auto;
+}
+.log-InUpForm .form-group {
+    margin-bottom: 3px;
+    position: relative;
+    padding-bottom: 32px;
+}
+.log-InUpForm .form-group small.emailHelp {
+    position: absolute;
+    bottom: 0px;
+}
+.form-btn-group {
+	margin-top: 60px;
+}
+h2.formTitle {
+	color: #fff;
+	font-size: 22px;
+	font-family: 'nimbus_sans_d_otbold';
+	margin-bottom: 47px;
+}.errormsg {
+    color: #fff;
+    font-size: 18px;
+}
+.successmsg
+{
+	color: #fff;
+    font-size: 16px;
+}
